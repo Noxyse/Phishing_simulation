@@ -93,6 +93,7 @@ By accessing this repository, you agree to use the materials responsibly and sol
   - Report suspicious websites to your browser or security software.
  
 # Tools
-- PhishTank: Free service for detecting and tracking phishing sites.
-- Gophish: Open-source phishing simulation tool.
-- Have I Been Pwned: Check if your email has been compromised.
+- [Google safe browsing](https://safebrowsing.google.com/safebrowsing/report_phish/)
+- [PhishTank](https://phishtank.org/): Free service for detecting and tracking phishing sites.
+- [Gophish](https://getgophish.com/): Open-source phishing simulation tool.
+- [Have I Been Pwned](https://haveibeenpwned.com/): Check if your email has been compromised.
