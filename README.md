@@ -2,7 +2,8 @@
 1. [Disclaimer](#Disclaimer)
 2. [Preventing Phishing attacks](#How-to-prevent-Phishing-attacks)
 3. [Being cautious](#Be-cautious-of-Phishing-websites)
-4. [Example](/Real%20site%20example/)
+4. [Tools](#Tools)
+5. [Example](/Real%20site%20example/)
 
 # Disclaimer
 This repository is intended solely for educational purposes. The content, code, and resources provided herein are meant to facilitate learning and understanding of phishing techniques and cybersecurity measures. Any use of this repository for malicious purposes, including but not limited to unauthorized access, data theft, or any form of cybercrime, is strictly prohibited and may violate local, national, or international laws.
@@ -90,3 +91,5 @@ By accessing this repository, you agree to use the materials responsibly and sol
 - **Trust Your Instincts:**
   - If something feels off about the website, trust your instincts and avoid entering any personal information.
   - Report suspicious websites to your browser or security software.
+ 
+# Tools
