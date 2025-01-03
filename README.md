@@ -1,5 +1,7 @@
 # This repo's content
-[Disclaimer](#Disclaimer)
+1. [Disclaimer](#Disclaimer)
+2. [Preventing Phishing attacks](#How-to-prevent-Phishing-attacks)
+3. [Being cautious](#Be-cautious-of-Phishing-websites)
 
 # Disclaimer
 This repository is intended solely for educational purposes. The content, code, and resources provided herein are meant to facilitate learning and understanding of phishing techniques and cybersecurity measures. Any use of this repository for malicious purposes, including but not limited to unauthorized access, data theft, or any form of cybercrime, is strictly prohibited and may violate local, national, or international laws.
