@@ -93,7 +93,8 @@ By accessing this repository, you agree to use the materials responsibly and sol
   - Report suspicious websites to your browser or security software.
  
 # Tools
-- [Google safe browsing](https://safebrowsing.google.com/safebrowsing/report_phish/)
+- [Webhook.site](https://webhook.site/): allows users to create temporary URLs to receive and inspect HTTP requests for testing and debugging webhooks.
+- [Google safe browsing](https://safebrowsing.google.com/safebrowsing/report_phish/): a Google service that allows users to report phishing websites to help improve online safety.
 - [PhishTank](https://phishtank.org/): Free service for detecting and tracking phishing sites.
 - [Gophish](https://getgophish.com/): Open-source phishing simulation tool.
 - [Have I Been Pwned](https://haveibeenpwned.com/): Check if your email has been compromised.
